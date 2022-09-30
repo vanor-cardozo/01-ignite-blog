@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './Header.module.css'
 
-import igniteLogo from '../assets/ignite-logo-with-text.svg'
+import igniteLogo from '../assets/ignite-blog-logo.svg'
 
 export function Header() {
     return (
