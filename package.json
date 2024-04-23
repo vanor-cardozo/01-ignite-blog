@@ -1,12 +1,15 @@
 {
-  "name": "novo-projeto",
+  "homepage": "https://vanor-cardozo.github.io/01-ignite-blog",
+  "name": "ignite-blog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
@@ -20,6 +23,7 @@
     "@vitejs/plugin-react": "^2.1.0",
     "eslint": "^8.24.0",
     "eslint-plugin-react": "^7.31.8",
+    "gh-pages": "^6.1.1",
     "vite": "^3.1.0"
   }
 }
