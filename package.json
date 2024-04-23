@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vanor-cardozo.github.io/01-ignite-blog",
-  "name": "ignite-blog",
+  "homepage": "https://vanor-cardozo.github.io/blog-project",
+  "name": "blog-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
